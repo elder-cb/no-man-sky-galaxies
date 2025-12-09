@@ -1,4 +1,4 @@
-import {AfterViewInit, Component, computed, effect, ElementRef, OnDestroy, OnInit, signal, Signal, viewChild} from '@angular/core'
+import {AfterViewInit, Component, effect, ElementRef, OnDestroy, OnInit, signal, Signal, viewChild} from '@angular/core'
 import {MatTableDataSource, MatTableModule} from '@angular/material/table'
 import {MatSort, MatSortModule} from '@angular/material/sort'
 import {CommonModule} from '@angular/common'
@@ -43,12 +43,6 @@ export class AppComponent implements OnInit, AfterViewInit, OnDestroy {
   nameSearch = signal<string>('')
   isStuck = signal<boolean>(false)
   private stickyObserver?: IntersectionObserver
-  filterValue = computed(() => {
-    return {
-      type: this.selectedType(),
-      name: this.nameSearch()
-    }
-  })
 
   constructor() {
     effect(() => {
@@ -83,7 +77,7 @@ export class AppComponent implements OnInit, AfterViewInit, OnDestroy {
 
     // Observe when the sticky header should be considered "stuck"
     this.stickyObserver = new IntersectionObserver(([entry]) => {
-      this.isStuck.set(entry.isIntersecting === false)
+      this.isStuck.set(!entry.isIntersecting)
     }, { root: null, threshold: 0, rootMargin: '0px 0px 0px 0px' })
 
     this.stickyObserver.observe(this.stickySentinel().nativeElement)
