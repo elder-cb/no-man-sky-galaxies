@@ -23,10 +23,10 @@
         <mat-form-field appearance="outline">
           <mat-label>Filter by Galaxy Type</mat-label>
           <mat-select [(ngModel)]="selectedType">
+            <mat-option [value]="">All</mat-option>
             @for (type of galaxyTypes; track type) {
               <mat-option [value]="type">{{ type }}</mat-option>
             }
-            <mat-option [value]="">All</mat-option>
           </mat-select>
         </mat-form-field>
       </div>
