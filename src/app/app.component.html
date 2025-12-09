@@ -2,9 +2,9 @@
 
   <div class="table-with-filters">
     <div class="filter-container">
-      <div class="column-filter column-id" style="width: 15%"></div>
+      <div class="column-filter column-id"></div>
 
-      <div class="column-filter column-name" style="width: 50%">
+      <div class="column-filter column-name">
         <mat-form-field appearance="outline">
           <mat-label>Search by Galaxy Name</mat-label>
           <input [(ngModel)]="nameSearch" matInput placeholder="Search..."/>
@@ -17,7 +17,7 @@
           }
         </mat-form-field>
       </div>
-      <div class="column-filter column-type" style="width: 35%">
+      <div class="column-filter column-type">
         <mat-form-field appearance="outline">
           <mat-label>Filter by Galaxy Type</mat-label>
           <mat-select [(ngModel)]="selectedType">
@@ -31,7 +31,7 @@
     <div class="table-container">
       <table mat-table [dataSource]="dataSource" matSort class="mat-elevation-z8">
         <ng-container matColumnDef="id">
-          <th mat-header-cell *matHeaderCellDef mat-sort-header class="column-id">Galaxy ID</th>
+          <th mat-header-cell *matHeaderCellDef mat-sort-header class="column-id"><span class="long">Galaxy ID</span><span class="short">ID</span></th>
           <td mat-cell *matCellDef="let galaxy">{{ galaxy.id }}</td>
         </ng-container>
         <ng-container matColumnDef="name">

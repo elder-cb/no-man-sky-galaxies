@@ -3,16 +3,28 @@
 }
 
 .table-with-filters {
+  /* Shared column width variables so filters and table stay aligned */
+  --col-id: 15%;
+  --col-name: 50%;
+  --col-type: 35%;
+
   display: grid;
   grid-template-rows: auto 1fr;
   gap: 0;
-  padding: 2rem;
-  background-color: #f5f5f5;
+  padding: 0;
+  padding-block-end: 2rem;
+  background: #f5f5f5;
 
   .filter-container {
+    position: sticky;
+    z-index: 1;
+    top: 0;
+    padding: 2rem;
+    padding-block-end: 1rem;
+    background: #f5f5f5;
     display: flex;
     gap: 0;
-    padding-bottom: 0.5rem;
+    box-shadow: 0 0.5rem 1rem #aaa;
 
     .mat-mdc-form-field {
       width: 100%;
@@ -22,17 +34,17 @@
     }
 
     .column-id {
-      flex: 0 0 15%;
+      flex: 0 0 var(--col-id);
     }
 
     .column-name {
-      flex: 0 0 50%;
+      flex: 0 0 var(--col-name);
       padding-inline-start: 1rem;
       padding-inline-end: 1rem;
     }
 
     .column-type {
-      flex: 0 0 35%;
+      flex: 0 0 var(--col-type);
       padding-inline-start: 1rem;
     }
 
@@ -46,24 +58,45 @@
   }
 
   .table-container {
-    overflow-x: auto;
+    overflow-x: visible;
+    padding-inline: 2rem;
 
-    .column-id {
-      width: 15%;
+    /* Ensure table columns use same widths as filters */
+    .column-id,
+    .mat-column-id {
+      width: var(--col-id);
+      max-width: var(--col-id);
+      .short {
+        display: none;
+      }
+      .long {
+        display: inline;
+      }
     }
 
-    .column-name {
-      width: 50%;
+    .column-name,
+    .mat-column-name {
+      width: var(--col-name);
+      max-width: var(--col-name);
     }
 
-    .column-type {
-      width: 35%;
+    .column-type,
+    .mat-column-type {
+      width: var(--col-type);
+      max-width: var(--col-type);
     }
   }
 
 
   table {
     width: 100%;
+    table-layout: fixed; /* keep columns constrained to widths */
+
+    th, td {
+      overflow: hidden;
+      text-overflow: ellipsis;
+      vertical-align: middle;
+    }
 
     tr {
       background-color: #f5f5f5;
@@ -85,5 +118,66 @@
       }
     }
   }
-}
 
+  /* Responsive adjustments for small screens */
+  @media (max-width: 600px) {
+
+    --col-id: 12%;
+    --col-name: 53%;
+    --col-type: 35%;
+
+    .filter-container {
+      padding: 1rem;
+      flex-direction: column;
+      gap: 0.5rem;
+
+
+      .column-id {
+        display: none;
+      }
+
+      .column-name,
+      .column-type {
+        padding-inline: 0;
+      }
+    }
+
+    .mdc-data-table__cell, .mdc-data-table__header-cell {
+      padding-inline-start: 0.25rem;
+      padding-inline-end: 0.25rem;
+    }
+
+    .column-name {
+      padding-inline-start: 0.25rem;
+      padding-inline-end: 0.25rem;
+    }
+
+    .column-type {
+      padding-inline-start: 0.25rem;
+    }
+
+    .table-container {
+      padding-inline: 1rem;
+    }
+
+    .table-container th.column-id {
+      .short {
+        display: inline;
+      }
+      .long {
+        display: none;
+      }
+    }
+
+    .filter-container .mat-mdc-form-field-infix {
+      padding-top: 0.25rem;
+      padding-bottom: 0.25rem;
+    }
+
+    .table-container .mat-column-name,
+    .table-container th.column-name {
+      white-space: normal;
+      line-height: 1.2;
+    }
+  }
+}
