@@ -1,7 +1,9 @@
 @if (dataSource) {
 
   <div class="table-with-filters">
-    <div class="filter-container">
+    <div #stickySentinel class="sticky-sentinel" aria-hidden="true"></div>
+
+    <div class="filter-container" [class.is-stuck]="isStuck()">
       <div class="column-filter column-id"></div>
 
       <div class="column-filter column-name">
