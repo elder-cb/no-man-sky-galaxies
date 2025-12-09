@@ -37,3 +37,10 @@ body {
 
 html, body { height: 100%; }
 body { margin: 0; font-family: Roboto, "Helvetica Neue", sans-serif; }
+
+/* override material default styles */
+body {
+  div.mat-mdc-select-panel {
+    max-height: 305px;
+  }
+}
