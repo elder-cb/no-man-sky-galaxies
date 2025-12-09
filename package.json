@@ -6,7 +6,9 @@
     "start": "ng serve",
     "build": "ng build",
     "watch": "ng build --watch --configuration development",
-    "test": "ng test"
+    "test": "ng test",
+    "test:links": "node scripts/validate-links.js",
+    "test:all": "npm run test && npm run test:links"
   },
   "prettier": {
     "printWidth": 100,

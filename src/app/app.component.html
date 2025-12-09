@@ -40,7 +40,15 @@
         </ng-container>
         <ng-container matColumnDef="name">
           <th mat-header-cell *matHeaderCellDef mat-sort-header class="column-name">Galaxy Name</th>
-          <td mat-cell *matCellDef="let galaxy">{{ galaxy.name }}</td>
+          <td mat-cell *matCellDef="let galaxy">
+            <a
+              [href]="'https://nomanssky.fandom.com/wiki/' + (galaxy.name ? galaxy.name.split(' ').join('_') : '')"
+              target="_blank"
+              rel="noopener noreferrer"
+            >
+              {{ galaxy.name }}
+            </a>
+          </td>
         </ng-container>
         <ng-container matColumnDef="type">
           <th mat-header-cell *matHeaderCellDef mat-sort-header class="column-type">Galaxy Type</th>

@@ -102,7 +102,7 @@
     },
     {
       "id": 21,
-      "name": "Loychazing",
+      "name": "Loychazinq",
       "type": "Normal"
     },
     {
@@ -122,7 +122,7 @@
     },
     {
       "id": 25,
-      "name": "Iwerbetek",
+      "name": "Twerbetek",
       "type": "Normal"
     },
     {
@@ -172,7 +172,7 @@
     },
     {
       "id": 35,
-      "name": "lisenufryos",
+      "name": "Ijsenufryos",
       "type": "Harsh"
     },
     {
@@ -207,7 +207,7 @@
     },
     {
       "id": 42,
-      "name": "Xobeurindi",
+      "name": "Xobeurindj",
       "type": "Normal"
     },
     {
@@ -282,7 +282,7 @@
     },
     {
       "id": 57,
-      "name": "likerloor",
+      "name": "Ilkerloor",
       "type": "Normal"
     },
     {
@@ -312,13 +312,188 @@
     },
     {
       "id": 63,
-      "name": "Nokokipsech!",
+      "name": "Nokokipsechl",
       "type": "Harsh"
     },
     {
       "id": 64,
       "name": "Rinblodesa",
       "type": "Normal"
+    },
+    {
+      "id": 65,
+      "name": "Loydporpen",
+      "type": "Normal"
+    },
+    {
+      "id": 66,
+      "name": "Ibtrevskip",
+      "type": "Normal"
+    },
+    {
+      "id": 67,
+      "name": "Elkowaldb",
+      "type": "Empty"
+    },
+    {
+      "id": 68,
+      "name": "Heholhofsko",
+      "type": "Normal"
+    },
+    {
+      "id": 69,
+      "name": "Yebrilowisod",
+      "type": "Normal"
+    },
+    {
+      "id": 70,
+      "name": "Husalvangewi",
+      "type": "Lush"
+    },
+    {
+      "id": 71,
+      "name": "Ovna'uesed",
+      "type": "Normal"
+    },
+    {
+      "id": 72,
+      "name": "Bahibusey",
+      "type": "Empty"
+    },
+    {
+      "id": 73,
+      "name": "Nuybeliaure",
+      "type": "Normal"
+    },
+    {
+      "id": 74,
+      "name": "Doshawchuc",
+      "type": "Normal"
+    },
+    {
+      "id": 75,
+      "name": "Ruckinarkh",
+      "type": "Harsh"
+    },
+    {
+      "id": 76,
+      "name": "Thorettac",
+      "type": "Normal"
+    },
+    {
+      "id": 77,
+      "name": "Nuponoparau",
+      "type": "Normal"
+    },
+    {
+      "id": 78,
+      "name": "Moglaschil",
+      "type": "Normal"
+    },
+    {
+      "id": 79,
+      "name": "Uiweupose",
+      "type": "Lush"
+    },
+    {
+      "id": 80,
+      "name": "Nasmilete",
+      "type": "Normal"
+    },
+    {
+      "id": 81,
+      "name": "Ekdaluskin",
+      "type": "Normal"
+    },
+    {
+      "id": 82,
+      "name": "Hakapanasy",
+      "type": "Normal"
+    },
+    {
+      "id": 83,
+      "name": "Dimonimba",
+      "type": "Harsh"
+    },
+    {
+      "id": 84,
+      "name": "Cajaccari",
+      "type": "Normal"
+    },
+    {
+      "id": 85,
+      "name": "Olonerovo",
+      "type": "Normal"
+    },
+    {
+      "id": 86,
+      "name": "Umlanswick",
+      "type": "Normal"
+    },
+    {
+      "id": 87,
+      "name": "Henayliszm",
+      "type": "Empty"
+    },
+    {
+      "id": 88,
+      "name": "Utzenmate",
+      "type": "Normal"
+    },
+    {
+      "id": 89,
+      "name": "Umirpaiya",
+      "type": "Normal"
+    },
+    {
+      "id": 90,
+      "name": "Paholiang",
+      "type": "Lush"
+    },
+    {
+      "id": 91,
+      "name": "Iaereznika",
+      "type": "Normal"
+    },
+    {
+      "id": 92,
+      "name": "Yudukagath",
+      "type": "Empty"
+    },
+    {
+      "id": 93,
+      "name": "Boealalosnj",
+      "type": "Normal"
+    },
+    {
+      "id": 94,
+      "name": "Yaevarcko",
+      "type": "Normal"
+    },
+    {
+      "id": 95,
+      "name": "Coellosipp",
+      "type": "Harsh"
+    },
+    {
+      "id": 96,
+      "name": "Wayndohalou",
+      "type": "Normal"
+    },
+    {
+      "id": 97,
+      "name": "Smoduraykl",
+      "type": "Normal"
+    },
+    {
+      "id": 98,
+      "name": "Apmaneessu",
+      "type": "Normal"
+    },
+    {
+      "id": 99,
+      "name": "Hicanpaav",
+      "type": "Lush"
     },
     {
       "id": 100,
@@ -652,7 +827,7 @@
     },
     {
       "id": 166,
-      "name": "Vagerosat",
+      "name": "Uagerosat",
       "type": "Normal"
     },
     {
@@ -747,7 +922,7 @@
     },
     {
       "id": 185,
-      "name": "lodhinxois",
+      "name": "Iodhinxois",
       "type": "Normal"
     },
     {
@@ -787,7 +962,7 @@
     },
     {
       "id": 193,
-      "name": "Evcickcandi",
+      "name": "Evcickcandj",
       "type": "Normal"
     },
     {
@@ -846,8 +1021,183 @@
       "type": "Normal"
     },
     {
+      "id": 205,
+      "name": "Dihewsonj",
+      "type": "Normal"
+    },
+    {
+      "id": 206,
+      "name": "Rudrailhik",
+      "type": "Normal"
+    },
+    {
+      "id": 207,
+      "name": "Tweretnort",
+      "type": "Empty"
+    },
+    {
+      "id": 208,
+      "name": "Snatreetze",
+      "type": "Normal"
+    },
+    {
+      "id": 209,
+      "name": "Iwundaracos",
+      "type": "Normal"
+    },
+    {
+      "id": 210,
+      "name": "Digarlewena",
+      "type": "Lush"
+    },
+    {
+      "id": 211,
+      "name": "Erquagsta",
+      "type": "Normal"
+    },
+    {
+      "id": 212,
+      "name": "Logovoloin",
+      "type": "Empty"
+    },
+    {
+      "id": 213,
+      "name": "Boyaghosganh",
+      "type": "Normal"
+    },
+    {
+      "id": 214,
+      "name": "Kuolungau",
+      "type": "Normal"
+    },
+    {
+      "id": 215,
+      "name": "Pehneldept",
+      "type": "Harsh"
+    },
+    {
+      "id": 216,
+      "name": "Yevettiiqidcon",
+      "type": "Normal"
+    },
+    {
+      "id": 217,
+      "name": "Sahliacabru",
+      "type": "Normal"
+    },
+    {
+      "id": 218,
+      "name": "Noggalterpor",
+      "type": "Normal"
+    },
+    {
+      "id": 219,
+      "name": "Chmageaki",
+      "type": "Lush"
+    },
+    {
+      "id": 220,
+      "name": "Veticueca",
+      "type": "Normal"
+    },
+    {
+      "id": 221,
+      "name": "Vittesbursul",
+      "type": "Normal"
+    },
+    {
+      "id": 222,
+      "name": "Nootanore",
+      "type": "Normal"
+    },
+    {
+      "id": 223,
+      "name": "Innebdjerah",
+      "type": "Harsh"
+    },
+    {
+      "id": 224,
+      "name": "Kisvarcini",
+      "type": "Normal"
+    },
+    {
+      "id": 225,
+      "name": "Cuzcogipper",
+      "type": "Normal"
+    },
+    {
+      "id": 226,
+      "name": "Pamanhermonsu",
+      "type": "Normal"
+    },
+    {
+      "id": 227,
+      "name": "Brotoghek",
+      "type": "Empty"
+    },
+    {
+      "id": 228,
+      "name": "Mibittara",
+      "type": "Normal"
+    },
+    {
+      "id": 229,
+      "name": "Huruahili",
+      "type": "Normal"
+    },
+    {
+      "id": 230,
+      "name": "Raldwicarn",
+      "type": "Lush"
+    },
+    {
+      "id": 231,
+      "name": "Ezdartlic",
+      "type": "Normal"
+    },
+    {
+      "id": 232,
+      "name": "Badesclema",
+      "type": "Empty"
+    },
+    {
+      "id": 233,
+      "name": "Isenkeyan",
+      "type": "Normal"
+    },
+    {
+      "id": 234,
+      "name": "Iadoitesu",
+      "type": "Normal"
+    },
+    {
+      "id": 235,
+      "name": "Yagrovoisi",
+      "type": "Harsh"
+    },
+    {
+      "id": 236,
+      "name": "Ewcomechio",
+      "type": "Normal"
+    },
+    {
+      "id": 237,
+      "name": "Inunnunnoda",
+      "type": "Normal"
+    },
+    {
+      "id": 238,
+      "name": "Dischiutun",
+      "type": "Normal"
+    },
+    {
+      "id": 239,
+      "name": "Yuwarugha",
+      "type": "Lush"
+    },
+    {
       "id": 240,
-      "name": "lalmendra",
+      "name": "Ialmendra",
       "type": "Normal"
     },
     {
@@ -872,7 +1222,7 @@
     },
     {
       "id": 245,
-      "name": "Zicniljinis",
+      "name": "Zicniijinis",
       "type": "Normal"
     },
     {
@@ -922,7 +1272,7 @@
     },
     {
       "id": 255,
-      "name": "lousongola",
+      "name": "Iousongola",
       "type": "Harsh"
     },
     {
